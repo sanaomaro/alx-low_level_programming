@@ -1,12 +1,8 @@
 #include <stdio.h>
-/**
- *
- *  * the entry point - the starting point : main*
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
+/*
+ * the entry point - the starting point : main
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
