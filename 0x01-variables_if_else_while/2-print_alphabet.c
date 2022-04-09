@@ -12,9 +12,10 @@ int main(void)
 {
 		int no;
 
-		for (no =1 ; no <= 26; no++)
+		for (no = 1; no <= 26 ; no++)
 			putchar(no);
-			printf("\n");
+
+		printf("\n");
 		return (0);
 
 }
