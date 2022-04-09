@@ -13,6 +13,6 @@ int main(void)
 			putchar(charalpha);
 		for (charalpha = 'A'; charalpha <= 'Z'; charalpha+)
 			putchar(charalpha);
-			putchar('\n');
+			printf('\n');
 		return (0);
 }
