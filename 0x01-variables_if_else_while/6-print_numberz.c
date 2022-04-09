@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - the starting point a program that prints numbers using putchar
- * Return: Always return 0 
+ * Return: Always return 0
  */
 
 int main(void)
