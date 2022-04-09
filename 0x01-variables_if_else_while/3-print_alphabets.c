@@ -11,7 +11,7 @@ int main(void)
 
 		for (charalpha = 'a'; charalpha <= 'z'; charalpha++)
 			putchar(charalpha);
-		for (charalpha = 'A'; charalpha <= 'Z'; charalpha+)
+		for (charalpha = 'A'; charalpha <= 'Z'; charalpha++)
 			putchar(charalpha);
 			printf('\n');
 		return (0);
