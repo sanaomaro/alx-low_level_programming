@@ -3,6 +3,13 @@
  * printing alphabet in lower case - starting point
  * Return:0
  */
+int main(void)
+
+{
+	print_alphabet();
+        return (0);
+
+}
 void print_alphabet(void)
 {
 	char my_cahr = 'a';
