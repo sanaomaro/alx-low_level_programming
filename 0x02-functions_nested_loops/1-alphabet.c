@@ -13,5 +13,4 @@ void print_alphabet(void)
 		my_char++;
 	}
 	_putchar('\n');
-return(0);
 }
