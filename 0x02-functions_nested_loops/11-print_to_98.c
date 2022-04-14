@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 /**
  * print_to_98 - a function that prints all numbers from n to 98
  * in both cses when @n is > or < 98
