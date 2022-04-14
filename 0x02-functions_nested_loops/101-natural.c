@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - to printsum of all numbers under 1024 that are multiple of 3 or 5
- * return: 0 success
+ * Return: 0 success
  */
 int main(void)
 {
