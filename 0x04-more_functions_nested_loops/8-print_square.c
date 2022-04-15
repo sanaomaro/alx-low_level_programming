@@ -1,14 +1,14 @@
 #include "main.h"
 /**
  * print_square - A function who print a square using #
- * @side: squareside 
+ * @size: squareside 
  * Return: nothing
  */
 
-void print_square(int side)
+void print_square(int size)
 {
 	int i, j;
-	int n = side;
+	int n = size;
 	
 	if (n > 0)
 	{
