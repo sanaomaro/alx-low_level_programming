@@ -1,8 +1,10 @@
 #include "main.h"
-/* prime_factor - function to prints the largest prime factor of the number 612852475143, followed by a new line
- * Return: 0
+/**
+ ** prime_factor - prints the largest prime factor of the number 612852475143
+ ** followed by a new line
+ ** Return: 0
  */
-void main()
+void main(void)
 {
 	long int i, j, largest, x = 612852475143;
 	int prime;
