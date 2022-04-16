@@ -6,12 +6,24 @@ void more_numbers(void)
 {
 	int i;
 	int j;
+	int k;
 
-	for(i = 0; i < 10; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		for (j = 0; j < 15; j++)
+		for (j = 48; j <= 49; j++)
 		{
-			_putchar(j);
+			for (k =  48; k  <= 57; k++)
+			{
+				if (j  !=  48)
+				{
+					_putchar(j);
+				}
+				_putchar(k);
+				if (j == 49 && k == 52)
+				{
+					break;
+				}
+			}
 		}
 		_putchar('\n');
 	}
