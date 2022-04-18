@@ -4,25 +4,33 @@
  * Return: 0
  */
 int main(void)
-{
-	int i;
-	int j;
 
-	for (i = '0'; i <= '8';)
+{
+	int i = '0';
+	int j = '0';
+
+	while (i <= '9')
 	{
-		for (j = i + 1; j <= '9'; j++)
+		while (j <= '9')
 		{
 			putchar(i);
 			putchar(j);
-			if (i != '8' && j != '9')
+			if (j == '9' && i == '9')
+			{
+				putchar('\n');
+			}
+			else
 			{
 				putchar(',');
 				putchar(' ');
 			}
+			j++;
 		}
-	i++;
+		if (j >= '9')
+		{
+			j = '0';
+		}
+		i++;
 	}
-	putchar('\n');
-
 	return (0);
 }
