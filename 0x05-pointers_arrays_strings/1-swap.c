@@ -5,6 +5,7 @@
  * @b: input 2
  * Return: integers
  */
+
 void swap_int(int *a, int *b)
 {
 	int n;
