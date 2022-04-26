@@ -6,7 +6,7 @@
  * @n: input n bytes area to be filled
  * Return: Always 0 (Success)
   */
-char *_memcpy(char *s, char *b, unsigned int n)
+char *_memset(char *s, char *b, unsigned int n)
 {
 	unsigned int i;
 
