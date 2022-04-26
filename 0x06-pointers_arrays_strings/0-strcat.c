@@ -7,21 +7,16 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int srcLen = 0;
-	int counter = 0;
-	char *tempoutput = dest;
-	char *temp = src;
+	int i, c;
 
-	while (*dest)
-		dest++;
-	while (*src++)
-		srcLn++;
-	while (counter < srcLen)
+	for (i = 0; dest[i] != '\0'; i++)
+		;
+	for (c = 0; src[c] != '\0'; c++)
 	{
-		*dest++ = *temp++;
-		counter++;
+		dest[i] = src[c];
+		i++;
 	}
-	*dest = '\0';
-	return (tempoutput);
+	dest[i] = '\0';
+	return (dest);
 
 }
