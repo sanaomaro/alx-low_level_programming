@@ -5,14 +5,14 @@
  * Return: uppercase string output
   */
 
-char *string_toupper(char *c)
+char *string_toupper(char *s)
 {
 	int i;
 
-	for (i = 0; c[i] != '\0\;; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if(c[i] >= 'a' && c[i] <= 'z')
-			c[i] -= 32;
+		if(s[i] > 96 && s[i] < 123)
+			s[i] -= 32;
 	}
-	return (c);
+	return (s);
 }
