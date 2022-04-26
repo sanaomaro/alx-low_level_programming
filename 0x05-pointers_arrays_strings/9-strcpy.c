@@ -5,15 +5,17 @@
  * @src: copy from
  * Return: string
  */
-char *_strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, char *src)
 {
-	int i = 0;
+	char *d = dest;
 
-	while (src[i])
+	for (; *src != '\0'; src++)
 	{
-		dest[i] = src[i];
-		i++;
+		*dest = *src;
+		dest++;
 	}
+	
+	*dest = *src;
 
-	return (dest);
+	return (d);
 }
