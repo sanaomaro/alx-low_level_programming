@@ -8,9 +8,9 @@ char *rot13(char *s)
 {
 	int i, j;
 
-	for (i = 0; *s[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		*s[i] = *s[i] + 13;
+		s[i] = s[i] + 'a';
 	}
-	return (*s);
+	return (s);
 }
