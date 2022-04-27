@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_chessboard.c - printing an arry as a chess board
+ * print_chessboard - printing an arry as a chess board
  * @a: the array
  * Return: nohing
  */
