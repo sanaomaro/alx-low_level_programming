@@ -1,0 +1,19 @@
+#include "main.h"
+/**
+ * print_chessboard.c - printing an arry as a chess board
+ * @a: the array
+ * Return: nohing
+ */
+void print_chessboard(char (*a)[8])
+{
+	int i, j;
+
+	for (j = 0; j < 8; j++)
+	{
+		for (i = 0; i < 8; i++)
+		{
+			_putchar(a[i][j]);
+		}
+		_putchar('\n');
+	}
+}
