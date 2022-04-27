@@ -10,7 +10,7 @@ char *rot13(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		s[i] = s[i] + 13;
+		s[i] = s[i] + '13';
 	}
 	return (s);
 }
