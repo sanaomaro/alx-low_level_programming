@@ -6,25 +6,26 @@
  */
 void main(void)
 {
-	long int i, j, largest, x = 612852475143;
-	int prime;
-
-	for (i = 2; i < x / 2; i++)
+	long int x = 612852475143;
+	int j;
+	
+	while(j++ < x / 2)
 	{
-		prime = 1;
-		if (x % i == 0)
-			largest = x / i;
-		for (j = 2; j < largest / 2; j++)
-			if (largest % j == 0)
-			{
-				prime = 0;
-				break;
-			}
-		if (prime)
+		if (x % j == 0)
 		{
-			printf("%ld\n", largest);
-			break;
+			x /= 2;
+			continue;
+		}
+		for (j = 3; j < x / 2; j += 2)
+		{
+			if (x % j == 0)
+			{
+				x /= j;
+			}
 		}
 	}
+	printf("%ld\n", x);
+
+
 	return (0);
 }
